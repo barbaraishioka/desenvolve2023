@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#projetos">Projetos desenvolvidos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#projetos">Projetos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#cronograma">Cronograma</a>
 </p>
 
@@ -72,6 +72,9 @@ Saiba mais sobre o Desenvolve: <a href="https://desenvolve.grupoboticario.com.br
 <span id="cronograma"></span>  
 <p>
 Abaixo, você encontra a grade de conteúdos e o cronograma do Desenvolve 2023 para a formação em Full Stack.
+</p>
+<p>
+  Início: 23 de Janeiro de 2023.
 </p>
 
 
