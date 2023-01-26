@@ -73,11 +73,11 @@ Saiba mais sobre o Desenvolve: <a href="https://desenvolve.grupoboticario.com.br
 <h2><b><a href="#">Meus Projetos</a></b></h2>
 
 <br>
+<span id="cronograma"></span>  
 <p>
 Abaixo, você encontra a grade de conteúdos e o cronograma do Desenvolve 2023 para a formação em Full Stack.
 </p>
 
-<span id="cronograma"></span>
 
 | Semana | Curso                                                                  | Carga Horária | Módulo    |
 | ------ | ---------------------------------------------------------------------- | ------------- | --------- |
