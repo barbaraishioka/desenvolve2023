@@ -67,7 +67,7 @@ Saiba mais sobre o Desenvolve: <a href="https://desenvolve.grupoboticario.com.br
 
 <br>
 
-> Esse repositório tem como objetivo documentar minha trajetória durante o programa desenvolve.
+<p>Esse repositório tem como objetivo documentar minha trajetória durante o programa desenvolve.</p>
 
 <h3>Segue o link para a página com a lista dos projetos criados durante o programa.</h3>
 <h2><b><a href="#">Meus Projetos</a></b></h2>
