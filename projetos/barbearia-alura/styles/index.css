@@ -81,11 +81,48 @@
 
 .imagem-beneficios {
   width: 60%;
+  opacity: 1;
+  transition: 400ms;
+  box-shadow: 10px 10px 10px 0 #000000;
+  /* box-shadow: [eixoX] [eixoY] [blur] [largura da borda] [cor] */
+}
+
+.imagem-beneficios:hover {
+  opacity: 0.3;
 }
 
 .video {
   width: 560px;
   margin: 2em auto;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 480px) {
+  .caixa,
+  .principal,
+  .conteudo-beneficios,
+  .mapa-conteudo,
+  .video {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+    text-align: center;
+  }
+
+  .lista-beneficios {
+    margin: 0 0 20px 20px;
+  }
+
+  .lista-beneficios, .imagem-beneficios {
+    width: 100%;
+  }
 }
 
 /* 

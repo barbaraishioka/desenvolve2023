@@ -60,3 +60,22 @@ th {
   border: 1px solid #000000;
   padding: 8px 15px;
 }
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 480px) {
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+    text-align: center;
+  }
+
+  main {
+    width: 100%;
+    margin-block: 106px;
+    margin-left: 80px;  
+  }
+}

@@ -44,3 +44,22 @@
   font-weight: bold;
   margin-top: 10px;
 }
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 480px) {
+  .produtos li {
+    display: block;
+    margin-bottom: 20px;
+    margin-inline: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+    text-align: center;
+  }
+}
