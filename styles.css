@@ -8,8 +8,9 @@
 }
 
 :root {
-  --primary-color: #fcafdb;
-  --secondary-color: #da3191;
+  --primary-color: #141316;
+  --secondary-color: palevioletred;
+  --border-color: #292630;
 }
 
 body {
@@ -20,7 +21,7 @@ body {
 
 #container {
   width: 100%;
-  max-width: 900px;
+  max-width: 1024px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -32,9 +33,6 @@ body {
   padding-block: 60px;
   color: var(--secondary-color);
   text-align: center;
-}
-
-div {
   margin-bottom: 20px;
 }
 
@@ -46,41 +44,76 @@ p.small {
   font-size: 1rem;
 }
 
-section ul {
+.cards {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
-  text-align: center;
 }
 
-ul li {
-  list-style: none;
+.card-content {
+  border: 1px solid var(--border-color);
+  padding: 10px 10px 10px;
 }
 
-ul li a {
-  width: 200px;
-  height: 100px;
-
+.card {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-
-  padding: 12px;
-  border: 1px solid var(--secondary-color);
-
-  text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: var(--secondary-color);
-  transition: 0.2s;
+  position: relative;
 }
 
-ul li a:hover {
+.card-content:hover > .card img {
+  opacity: 0.3;
+}
+
+.card-content:hover > .card div {
+  visibility: visible;
+}
+
+.card img {
+  width: 280px;
+}
+
+.card .projects-links {
+  position: absolute;
+  visibility: hidden;
+}
+
+.card .projects-links a {
+  text-decoration: none;
   background-color: var(--secondary-color);
   color: var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: background 0.3s;
+}
+
+.card .projects-links a:hover {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  opacity: 1;
+}
+
+.card-text {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.card-text span {
+  font-size: 0.8rem;
+  border: 1px solid var(--border-color);
+  padding: 4px 8px;
+  border-radius: 16px;
+}
+
+.empty {
+  width: 302px;
+  height: 208.078px;
+  border: 1px solid var(--border-color);
 }
 
 footer {
@@ -99,7 +132,7 @@ footer a:hover {
 
 @media only screen and (max-width: 450px) {
   h1 {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 
   p {
@@ -108,11 +141,5 @@ footer a:hover {
 
   p.small {
     font-size: 0.86rem;
-  }
-
-  ul li a {
-    width: 120px;
-    height: 80px;
-    font-size: 1rem;
   }
 }
