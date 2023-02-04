@@ -17,7 +17,7 @@
 <br>
 
 <p align="center">
-  <img src="../barbearia-alura/img/preview.png" width="100%">
+  <img src="../barbearia-alura/assets/img/preview.png" width="100%">
 </p>
 
 </br>
