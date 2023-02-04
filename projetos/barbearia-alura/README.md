@@ -34,7 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Página responsiva feita com HTML e CSS.
 
 
-- [Visite o projeto online](https://barbaraishioka.github.io/desenvolve2023/projetos/barbearia-alura/pages/index.html)
+- [Visite o projeto online](https://barbaraishioka.github.io/desenvolve2023/projetos/barbearia-alura/)
 
 ## :memo: Licença
 
