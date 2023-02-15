@@ -75,6 +75,8 @@ p.small {
 .card img {
   width: 280px;
   height: 116px;
+  object-fit: cover;
+  object-position: top center;
 }
 
 .card .projects-links {
