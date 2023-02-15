@@ -17,7 +17,7 @@
 <br>
 
 <p align="center">
-  <img src="../barbearia-alura/img/preview.png" width="100%">
+  <img src="../barbearia-alura/assets/img/preview.png" width="100%">
 </p>
 
 </br>
@@ -34,7 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Página responsiva feita com HTML e CSS.
 
 
-- [Visite o projeto online](https://barbaraishioka.github.io/desenvolve2023/projetos/barbearia-alura/pages/index.html)
+- [Visite o projeto online](https://barbaraishioka.github.io/desenvolve2023/projetos/barbearia-alura/)
 
 ## :memo: Licença
 
